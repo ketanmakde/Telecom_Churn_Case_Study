@@ -48,7 +48,7 @@ Customer who have not recharged in recent days even after the recharge is due, a
 
 - We aim to reduce the False Negative errors while reduction hence we need to maximise the recall score during the deployment phase.
 - The unsupervised Principal component analysis is implemented to reduce the dimensions in a dataset to increase the computation power. The Boosting and Logistic regression models are implemented on top of PCA and the original datasets.
-- For the PCA dataset, in terms of accuracy the Random Forest Classifier algorithm is best. it gives an accuracy of 92.92% for train and 89.76% for test dataset. For this the recall is higher in the case of train dataset which is 89.54% as compared to test dataset 65.68%.
+- For the PCA dataset, in terms of accuracy the Random Forest Classifier algorithm is best. it gives an accuracy of 85.40% for train and 84.77% for test dataset. For this the recall is higher in the case of train dataset which is 81.21% as compared to test dataset 76.61%.
 - The combination of PCA and logistic regression can false negative values very well, for the train and test dataset it gives 82.59% and 92.54% recall score, With an accuracy of 84.08% and 58.99% respectively.
 - In original datasets, XGBClassifier works very well in terms of accuracy and recall score. In the case of the train dataset accuracy and recall value is observed as 95.45% and 99.61%, while for the test dataset it is 92.09% and 78.66% respectively.
 - Similarly, logistic regression gives almost constant performance over accuracy and recall matrix. The accuracy for the train and test datasets is 81.34% and 80.45% respectively whereas the recall score for the train is 82.64% and 80.72% for the test dataset.
